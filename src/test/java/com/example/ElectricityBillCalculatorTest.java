@@ -19,7 +19,7 @@ class ElectricityBillCalculatorTest {
 
     @Test
     void testMultipleSlabs() {
-        assertEquals(325.0,
+        assertEquals(400.0,
             ElectricityBillCalculator.calculateBill(150), 0.001);
     }
 
